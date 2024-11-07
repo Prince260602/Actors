@@ -1,0 +1,153 @@
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f0f0f0;
+}
+
+.form {
+    background: white;
+    padding: 60px;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    text-align: left;
+    gap: unset !important;
+}
+
+
+.username {
+    display: block;
+    text-align: left;
+    color: #555;
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+}
+
+.password {
+    display: block;
+    text-align: left;
+    color: #555;
+    font-size: 18px;
+}
+
+.input {
+    display: block;
+    text-align: left;
+    padding: 10px;
+    color: #555;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.pass {
+    display: block;
+    text-align: left;
+    padding: 10px;
+    color: #555;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.error {
+    color: red;
+    text-align: left;
+}
+
+.ui.message.success {
+    color: green;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    text-align: left;
+    margin: 18px 0 20px;
+    color: #555;
+    font-size: 14px;
+}
+
+.button[type="submit"] {
+    padding: 10px;
+    background: #076651;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+svg.progress-spinner-circle {
+    stroke: #66ff00 !important;
+}
+
+
+@media (max-width: 768px) {
+    .form {
+        padding: 30px; 
+        width: 80%;
+    }
+
+    .username, .password {
+        font-size: 16px;
+    }
+
+    .input, .pass {
+        font-size: 13px; 
+    }
+
+    .button[type="submit"] {
+        font-size: 14px; 
+        padding: 8px; 
+    }
+
+    .checkbox {
+        font-size: 12px; 
+        margin: 15px 0 18px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .background {
+        padding: 10px; 
+    }
+
+    .form {
+        padding: 20px; 
+        width: 90%; 
+    }
+
+    .username, .password {
+        font-size: 14px;
+    }
+
+    .input, .pass {
+        font-size: 12px; 
+        padding: 8px; 
+    }
+
+    .button[type="submit"] {
+        font-size: 14px; 
+        padding: 12px; 
+    }
+
+    .checkbox {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 375px) {
+    .form {
+        width: 100%; 
+        padding: 15px; 
+    }
+
+    .button[type="submit"] {
+        font-size: 13px;
+        padding: 10px; 
+    }
+}

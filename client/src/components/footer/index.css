@@ -1,0 +1,108 @@
+:root{
+    --grey: #b9b9b9;
+}
+.footer{
+    margin: 0%;
+    background-color: #010159;
+    padding: 1rem;
+}
+.footersub1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footerleft{
+    /* padding: 1rem auto; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /* background-color: aqua; */
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerleft .heading{
+    font-size: 2rem;
+    font-weight: 650;
+    color: var(--grey);
+}
+.footerright{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /* background-color: tomato; */
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+.footersub2{
+    /* background-color: lightcoral; */
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--grey);
+    /*color: rgb(138, 137, 137);*/
+}
+.footerrightplatform{
+    /* background-color: wheat; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footerrightcompany{
+    /* background-color: antiquewhite; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    padding: 2px;
+    /*color: rgb(138, 137, 137);*/
+    color: var(--grey);
+    font-size: 1rem;
+    text-decoration: none;
+    display: block;
+}
+.subheading{
+    /*color: rgb(138, 137, 137);*/
+    color: var(--grey);
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 2px 2px 4px 2px;
+}
+@media (max-width:639px) {
+    .footersub1{
+        flex-direction: column;
+    }
+    .footerleft{
+        width: 100%;
+        justify-content: start;
+        padding: 8px;
+    }
+    .footerright{
+        padding: 8px;
+    }
+    .footerleft .heading{
+        font-size: 1.7rem;
+    }
+    .footerright{
+        width: 100%;
+    }
+    .footersub2{
+        justify-content: start;
+        text-align: start;
+        padding: 8px;
+    }
+    .footerrightplatform{
+        align-items: start;
+    }
+    .footerrightcompany{
+        align-items: start;
+    }
+}
