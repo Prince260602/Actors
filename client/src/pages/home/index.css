@@ -57,6 +57,15 @@ html {
   margin-bottom: 1rem;
 }
 
+
+.info-content img {
+  width: 100%; 
+  max-width: 500px; 
+  height: auto; 
+  display: block;
+  margin: 0 auto; 
+}
+
 .fields-info {
   text-align: center;
   font-size: 30px;

@@ -1,6 +1,6 @@
 import "./index.css";
 import { useEffect, useState } from "react";
-import mainImage from "../../img/main.png";
+import mainImage from "../../img/456.jpg";
 import MentorCard from "../../components/MentorCard/MentorCard.jsx";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -32,12 +32,12 @@ const Home = () => {
 
   const [text] = useTypewriter({
     words: [
-      "Career Guidance",
-      "Personal Development",
-      "Industry-Specific Advice",
-      "Skill Improvement",
-      "Entrepreneurship",
-      "Academic Support",
+      "Audition Tips",
+      "Acting Techniques",
+      "Live Performance",
+      "Drama Coaching",
+      "Film and Theatre Roles",
+      "Screen Acting",
     ],
     loop: {},
   });
@@ -50,7 +50,7 @@ const Home = () => {
         <div className="home-container">
           <div className="info-content">
             <div className="fields-info">
-              Discover the ideal mentor to support your journey in{" "}
+            Spotlight on Talent Dive into the Lives of Actors{" "}
             </div>
             <div
               className="fleid"
