@@ -19,7 +19,7 @@ function MentorCard({ mentor }) {
           <a href={`mailto:${mentor.email}`}>Email</a>
         </p>
         <p className="mentor-description">{mentor.description}</p>
-        <bold>*Pay as per agreement between mentor and student.</bold>
+        {/* <bold>*Pay as per agreement between mentor and student.</bold> */}
       </div>
       <div className="mentor-action">
         <a
